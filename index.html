@@ -5,11 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>WheatherMeUp</title>
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  
+  <div class="container">
+    <div>
+      <div class="titleDiv">
+        <h1>FreeCodeCamp Weather App</h1>
+      </div>
+      <div class="row">
+        
+        <div class="col-3"></div> <!-- for alignment -->
+        <div class="col-6 weatherPic"> <!-- Weather Content  -->
+          <div class=alignment>
+            <div class="cityName"><span id="city">Your Home City</span> </div>
+            <div class="tempRating"><Span id="temp">Temperature </Span><span id="tempType"> °C</span></div>
+            <div><img id="weatherIcon" src="" width="400px" height="300px" alt="Image of current weather conditions not showing"></div>
+            <div class="buttonToggle"><button class="btn btn-sm celsius" id="tempTypeToggle"><span id="corf">Toggle Temperature Measurement</span></button></div>
+          </div>
+        </div> <!-- End of Centralised Weather content -->
+        <div class="col-3"></div> <!-- for alignment -->
+          
+      </div> <!-- End of Row div -->
+    </div>
+  </div> <!-- End of Container / Page Div -->
 
 
 
